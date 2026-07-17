@@ -16,7 +16,6 @@ const banner = () => {
                     <CarouselContent>
                         {[1, 2, 3].map((slide) => (
                             <CarouselItem key={slide} className="relative h-[50vh] md:h-[65vh] lg:h-[75vh]">
-                                {/* เปลี่ยนเป็นรูป Banner จริง */}
                                 <div className="absolute inset-0 bg-zinc-200 flex items-center justify-center">
                                     <Image
                                         src={`/images/banner${slide}.png`}

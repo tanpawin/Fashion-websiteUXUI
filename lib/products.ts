@@ -12,49 +12,53 @@ export type Product = {
 export const products: Product[] = [
     {
         id: 1,
-        name: "Minimalist Shirt",
-        category: "Shirts",
-        description: "Cotton 100% สวมใส่สบาย ระบายอากาศได้ดี",
+        name: "Minimalist Hoodie",
+        category: "Hoodies",
+        description: "เสื้อฮู้ดผ้าคอตตอนพรีเมียม ดีไซน์มินิมอล นุ่มสบาย ใส่ได้ทุกวัน",
         details:
-            "เสื้อเชิ้ตทรงมินิมอลที่ออกแบบมาเพื่อการใช้งานในชีวิตประจำวัน ตัดเย็บด้วยเส้นใยคอตตอนคุณภาพสูง ให้สัมผัสนุ่ม โปร่ง และคงทรงสวยตลอดวัน เหมาะสำหรับทั้งลุคฟอร์มอลและแคชชวล",
+            "Minimalist Hoodie ถูกออกแบบมาในสไตล์เรียบง่ายแต่ดูทันสมัย ผลิตจากผ้าคอตตอนคุณภาพสูง ให้สัมผัสนุ่ม ระบายอากาศได้ดี และสวมใส่สบายตลอดวัน ทรง Regular Fit ช่วยให้เคลื่อนไหวได้อย่างคล่องตัว เหมาะสำหรับการแต่งตัวในทุกโอกาส ไม่ว่าจะใส่เที่ยว ทำงาน หรือพักผ่อน สามารถจับคู่กับกางเกงยีนส์ กางเกงวอร์ม หรือกางเกงขาสั้นได้อย่างลงตัว",
         price: "฿1,290",
         image: "/images/shirt1.png",
         specs: [
-            { label: "Material", value: "Cotton 100%" },
-            { label: "Fit", value: "Regular" },
-            { label: "Care", value: "Machine wash cold" },
+            { label: "Material", value: "100% Premium Cotton" },
+            { label: "Fit", value: "Regular Fit" },
+            { label: "Features", value: "Adjustable Hood & Front Kangaroo Pocket" },
+            { label: "Care", value: "Machine Wash Cold" },
         ],
     },
     {
         id: 2,
-        name: "Relaxed Linen Top",
-        category: "Tops",
-        description: "ผ้าลินินผสม น้ำหนักเบา เหมาะกับอากาศร้อนชื้น",
+        name: "Relaxed Denim Jacket",
+        category: "Jackets",
+        description: "แจ็กเก็ตเดนิมทรง Relaxed น้ำหนักเบา สวมใส่ง่าย แมตช์ได้ทุกลุค",
         details:
-            "ท็อปผ้าลินินผสมที่ให้ความรู้สึกเบาและสบาย เหมาะกับสภาพอากาศร้อนชื้น ดีไซน์เรียบง่ายแต่ดูมีสไตล์ สามารถจับคู่กับกางเกงหรือกระโปรงได้หลากหลายสไตล์",
+            "Relaxed Denim Jacket มาพร้อมดีไซน์คลาสสิกที่ผสานความทันสมัย เนื้อผ้าเดนิมผสมให้สัมผัสนุ่มและมีน้ำหนักเบากว่าเดนิมทั่วไป สวมใส่สบายแม้ในอากาศร้อนชื้น ทรง Relaxed Fit ช่วยเพิ่มความคล่องตัว เหมาะสำหรับการสวมทับเสื้อยืดหรือเชิ้ตเพื่อสร้างลุคที่ดูมีสไตล์ในทุกวัน",
         price: "฿1,590",
         image: "/images/shirt2.png",
         specs: [
-            { label: "Material", value: "Linen blend" },
-            { label: "Fit", value: "Relaxed" },
-            { label: "Care", value: "Hand wash recommended" },
+            { label: "Material", value: "Premium Denim Blend" },
+            { label: "Fit", value: "Relaxed Fit" },
+            { label: "Features", value: "Button Closure & Chest Pockets" },
+            { label: "Care", value: "Hand Wash Recommended" },
         ],
     },
     {
         id: 3,
-        name: "Essential Cotton Tee",
-        category: "Basics",
-        description: "เสื้อเบสิกทรง Oversized ตัดเย็บเรียบร้อย ใส่ได้ทุกโอกาส",
+        name: "Oversized T-Shirt",
+        category: "Shirts",
+        description: "เสื้อยืดโอเวอร์ไซซ์ทรงหลวม ผ้านุ่ม ใส่สบาย แมตช์ง่ายทุกสไตล์",
         details:
-            "เสื้อยืดเบสิกที่เป็นพื้นฐานของตู้เสื้อผ้า ทรง Oversized ให้ความรู้สึกผ่อนคลาย ผ้าคอตตอนหนาแน่นพอดี ไม่บางจนเกินไป ใส่ได้ทั้งอยู่บ้านและออกนอกบ้าน",
+            "Oversized T-Shirt คือเสื้อยืดที่ตอบโจทย์การแต่งตัวแบบเรียบง่ายแต่ดูดี ผลิตจากผ้าคอตตอนคุณภาพสูง เนื้อผ้านุ่ม ระบายอากาศได้ดี และคงรูปหลังการซัก ทรง Oversized ให้ลุคสบาย ๆ เหมาะกับการใส่ในชีวิตประจำวัน ไม่ว่าจะใส่เดี่ยว ๆ หรือเลเยอร์กับแจ็กเก็ตก็เข้ากันได้อย่างลงตัว",
         price: "฿990",
         image: "/images/shirt3.png",
         specs: [
-            { label: "Material", value: "Cotton 100%" },
-            { label: "Fit", value: "Oversized" },
-            { label: "Care", value: "Machine wash" },
+            { label: "Material", value: "100% Premium Cotton" },
+            { label: "Fit", value: "Oversized Fit" },
+            { label: "Features", value: "Soft Fabric & Breathable" },
+            { label: "Care", value: "Machine Wash Cold" },
         ],
     },
+
 ]
 
 export function getProductById(id: number): Product | undefined {

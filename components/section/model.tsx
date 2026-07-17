@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "../ui/button"
 import Image from "next/image";
 const model = () => {
@@ -28,12 +29,14 @@ const model = () => {
               นิยามใหม่ของการแต่งตัวที่เน้นความเรียบง่ายแต่แฝงไปด้วยรายละเอียดในแพทเทิร์นและการตัดเย็บ
               ออกแบบมาให้สามารถ Mix & Match ได้อย่างอิสระ
             </p>
+            <Link href="/Product">
             <Button
               variant="outline"
               className="rounded-none border-zinc-900 text-zinc-900 hover:bg-zinc-900 hover:text-white px-8 py-6 uppercase tracking-widest text-xs transition-colors"
             >
               Explore the Look
             </Button>
+            </Link>
           </div>
         </div>
       </section>
